@@ -1,11 +1,11 @@
 # ucsc-cse144-transfer-learning-challenge
 
 **Author:** Vaishnavi Venuturimilli  
-**Kaggle Public Leaderboard Score:** 65.45%  
+**Kaggle Public Leaderboard Score:** 65.45%  Score Screenshot Reference: https://docs.google.com/document/d/1P-bJ9ut40YNM6IDZtIdgeNN1ksJa0qBdeVn0rak5JsQ/edit?usp=sharing
 
 ## Project Overview
 The goal of this project was to build an image classifier capable of categorizing images into 100 different classes under a strict data constraint of only 10 training images per class. 
-The final architecture utilizes a ResNet-50 backbone with a custom classifier head, heavily regularized using a 0.5 Dropout rate, an AdamW optimizer with a 0.1 weight decay, and a StepLR scheduler.
+The final pipeline utilizes a ResNet-50 backbone with a custom classifier head, heavily regularized using a 0.5 Dropout rate, an AdamW optimizer with a 0.1 weight decay, and a StepLR scheduler.
 
 ## Trained Model Weights 
 * **Download the weights here:**  https://drive.google.com/file/d/12jH4iaY3g1XVedJC9aYlNA7uAm-nRhSt/view?usp=drive_link
