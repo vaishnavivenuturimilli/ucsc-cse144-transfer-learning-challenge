@@ -28,5 +28,5 @@ Training and inference were conducted locally utilizing PyTorch's `mps`  backend
 2. Download the Kaggle dataset and unzip it into the root directory. Ensure the images are inside relative paths named `train/` and `test/`.
 3. Download the trained model weights from the Google Drive link above and place `vaishnavi_cse144_finalmodel.pth` in the root directory.
 4. Open the provided Jupyter Notebook (`.ipynb`).
-5. **To Train:** Run the training cell.
+5. **To Train:** Run the training cell. A seed of `42` is set across PyTorch, NumPy, and Python's random module to allow for perfect determinism for the dataset splits and augmentations.
 6. **To Evaluate:** Run the inference cell. It will automatically load the saved `.pth` weights, evaluate the `test/` directory, and output the properly formatted `submission.csv`.
