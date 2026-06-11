@@ -7,8 +7,7 @@
 The goal of this project was to build an image classifier capable of categorizing images into 100 different classes under a strict data constraint of only 10 training images per class. 
 The final architecture utilizes a ResNet-50 backbone with a custom classifier head, heavily regularized using a 0.5 Dropout rate, an AdamW optimizer with a 0.1 weight decay, and a StepLR scheduler.
 
-## Trained Model Weights
-Due to GitHub's file size limits, the trained PyTorch weights for the final model (`vaishnavi_cse144_finalmodel.pth`) are hosted externally. 
+## Trained Model Weights 
 * **Download the weights here:** 
 
 ## Environment Setup
