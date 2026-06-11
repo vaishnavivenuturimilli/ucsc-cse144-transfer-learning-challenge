@@ -8,7 +8,7 @@ The goal of this project was to build an image classifier capable of categorizin
 The final architecture utilizes a ResNet-50 backbone with a custom classifier head, heavily regularized using a 0.5 Dropout rate, an AdamW optimizer with a 0.1 weight decay, and a StepLR scheduler.
 
 ## Trained Model Weights 
-* **Download the weights here:** 
+* **Download the weights here:**  https://drive.google.com/file/d/12jH4iaY3g1XVedJC9aYlNA7uAm-nRhSt/view?usp=drive_link
 
 ## Environment Setup
 Training and inference were conducted locally utilizing PyTorch's `mps`  backend for Apple Silicon hardware acceleration. The code is hardcoded to `device = torch.device("mps")`, but can be easily modified to `"cuda"` or `"cpu"` depending on your hardware.
